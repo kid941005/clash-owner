@@ -18,7 +18,6 @@ payload:
   - DOMAIN-SUFFIX,sandai.net
   - DOMAIN-SUFFIX,opensubtitles.org
   - DOMAIN-SUFFIX,movie-pilot.org
-  - DOMAIN,api.telegram.org
 #plex
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN,metadata.provider.plex.tv
@@ -55,15 +54,16 @@ payload:
   - DOMAIN-KEYWORD,wiki
   - DOMAIN-SUFFIX,v2ex.com
   #apple 
-  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
-  - DOMAIN-KEYWORD,apple-relay
-  - DOMAIN,apple-relay.apple.com
+  # - DOMAIN-SUFFIX,apple-relay.cloudflare.com
+ # - DOMAIN-KEYWORD,apple-relay
+  # - DOMAIN,apple-relay.apple.com
   #搜索引擎
   - DOMAIN-KEYWORD,wikidata
   - DOMAIN-KEYWORD,wikipedia
   #谷歌
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN-SUFFIX,googleapis.cn
-  - DOMAIN-SUFFIX,gstatic.com
+  # - DOMAIN-SUFFIX,googleapis.com
+ # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ # - DOMAIN-SUFFIX,googleapis.cn
+ # - DOMAIN-SUFFIX,gstatic.com
+ 
   - DOMAIN,v2rayse.com
