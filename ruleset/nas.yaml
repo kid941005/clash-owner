@@ -25,22 +25,22 @@ payload:
   - DOMAIN,v4.plex.tv
 #强国
   - DOMAIN-SUFFIX,v2raya.org
-  - DOMAIN-KEYWORD,onesy
+ # - DOMAIN-KEYWORD,onesy
   - DOMAIN-SUFFIX,wly312.buzz
   - DOMAIN-SUFFIX,wly311.buzz
   - DOMAIN-SUFFIX,ip.sb
-  - DOMAIN-SUFFIX,onesy.top
+#  - DOMAIN-SUFFIX,onesy.top
   - DOMAIN-SUFFIX,gw-yundong.cc
   - DOMAIN-SUFFIX,nanoport.xyz
   - DOMAIN-SUFFIX,一元机场.com
   - DOMAIN-SUFFIX,bigme.pro
 #工具
-  - DOMAIN-KEYWORD,bing
-  - DOMAIN-KEYWORD,docker
-  - DOMAIN-SUFFIX,docker.io
-  - DOMAIN-SUFFIX,docker.com
-  - DOMAIN,registry.hub.docker.com
-  - DOMAIN,hub.docker.com
+#  - DOMAIN-KEYWORD,bing
+#  - DOMAIN-KEYWORD,docker
+#  - DOMAIN-SUFFIX,docker.io
+ # - DOMAIN-SUFFIX,docker.com
+ # - DOMAIN,registry.hub.docker.com
+ # - DOMAIN,hub.docker.com
   - DOMAIN-KEYWORD,z-library
   - DOMAIN-SUFFIX,z-library.se
   - DOMAIN-SUFFIX,golang.org
@@ -58,8 +58,8 @@ payload:
  # - DOMAIN-KEYWORD,apple-relay
   # - DOMAIN,apple-relay.apple.com
   #搜索引擎
-  - DOMAIN-KEYWORD,wikidata
-  - DOMAIN-KEYWORD,wikipedia
+#  - DOMAIN-KEYWORD,wikidata
+ # - DOMAIN-KEYWORD,wikipedia
   #谷歌
   # - DOMAIN-SUFFIX,googleapis.com
  # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
@@ -67,3 +67,4 @@ payload:
  # - DOMAIN-SUFFIX,gstatic.com
  
   - DOMAIN,v2rayse.com
+
