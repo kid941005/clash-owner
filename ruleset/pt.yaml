@@ -1,16 +1,16 @@
 payload:
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,0ff.cc
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,1ptba.com
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,52pt.site
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,agsvpt.com # 末日
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,audiences.me # 观众
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,btschool.club
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,crabpt.vip # 蟹黄堡
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,dajiao.cyou # 打胶
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,haidan.video # 海胆PT
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,hdatmos.club
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,hdfans.org # 红豆饭
-  - DOMAIN-SUFFIX,DOMAIN-SUFFIX,hdfun.me # HDFun
+  - DOMAIN-SUFFIX,0ff.cc
+  - DOMAIN-SUFFIX,1ptba.com
+  - DOMAIN-SUFFIX,52pt.site
+  - DOMAIN-SUFFIX,agsvpt.com # 末日
+  - DOMAIN-SUFFIX,audiences.me # 观众
+  - DOMAIN-SUFFIX,btschool.club
+  - DOMAIN-SUFFIX,crabpt.vip # 蟹黄堡
+  - DOMAIN-SUFFIX,dajiao.cyou # 打胶
+  - DOMAIN-SUFFIX,haidan.video # 海胆PT
+  - DOMAIN-SUFFIX,hdatmos.club
+  - DOMAIN-SUFFIX,hdfans.org # 红豆饭
+  - DOMAIN-SUFFIX,Dhdfun.me # HDFun
   - DOMAIN-SUFFIX,hdbits.org # HDBits
   - DOMAIN-SUFFIX,hdhome.org # 家园
   - DOMAIN-SUFFIX,hdkyl.in # 麒麟PT
