@@ -46,6 +46,7 @@ payload:
   - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,4550.fun
+  - DOMAIN,v2rayse.com
 #其他
   - DOMAIN-KEYWORD,notion
   - DOMAIN-SUFFIX,qichiyu.com
@@ -54,9 +55,9 @@ payload:
   - DOMAIN-KEYWORD,wiki
   - DOMAIN-SUFFIX,v2ex.com
   #apple 
-  # - DOMAIN-SUFFIX,apple-relay.cloudflare.com
- # - DOMAIN-KEYWORD,apple-relay
-  # - DOMAIN,apple-relay.apple.com
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
+  - DOMAIN-KEYWORD,apple-relay
+  - DOMAIN,apple-relay.apple.com
   #搜索引擎
 #  - DOMAIN-KEYWORD,wikidata
  # - DOMAIN-KEYWORD,wikipedia
@@ -65,6 +66,3 @@ payload:
  # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
  # - DOMAIN-SUFFIX,googleapis.cn
  # - DOMAIN-SUFFIX,gstatic.com
- 
-  - DOMAIN,v2rayse.com
-
