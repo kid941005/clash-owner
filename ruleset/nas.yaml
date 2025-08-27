@@ -54,6 +54,8 @@ payload:
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-KEYWORD,wiki
   - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,movie-pilot.org
   #apple 
   - DOMAIN-SUFFIX,apple-relay.cloudflare.com
   - DOMAIN-KEYWORD,apple-relay
@@ -66,3 +68,4 @@ payload:
  # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
  # - DOMAIN-SUFFIX,googleapis.cn
  # - DOMAIN-SUFFIX,gstatic.com
+
