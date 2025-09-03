@@ -61,6 +61,7 @@ payload:
   - DOMAIN-KEYWORD,apple-relay
   - DOMAIN,apple-relay.apple.com
   - DOMAIN-SUFFIX,hdhive.com
+  - DOMAIN-SUFFIX,hdhive.online
   #搜索引擎
 #  - DOMAIN-KEYWORD,wikidata
  # - DOMAIN-KEYWORD,wikipedia
@@ -69,6 +70,7 @@ payload:
  # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
  # - DOMAIN-SUFFIX,googleapis.cn
  # - DOMAIN-SUFFIX,gstatic.com
+
 
 
 
