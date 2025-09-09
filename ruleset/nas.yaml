@@ -34,6 +34,8 @@ payload:
   - DOMAIN-SUFFIX,nanoport.xyz
   - DOMAIN-SUFFIX,一元机场.com
   - DOMAIN-SUFFIX,bigme.pro
+  - DOMAIN-SUFFIX,emovpn.top
+  - DOMAIN-SUFFIX,332532.xyz
 # 工具
 #  - DOMAIN-KEYWORD,bing
 #  - DOMAIN-KEYWORD,docker
@@ -78,4 +80,5 @@ payload:
  # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
  # - DOMAIN-SUFFIX,googleapis.cn
  # - DOMAIN-SUFFIX,gstatic.com
+
 
