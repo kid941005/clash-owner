@@ -18,12 +18,12 @@ payload:
   - DOMAIN-SUFFIX,sandai.net
   - DOMAIN-SUFFIX,opensubtitles.org
   - DOMAIN-SUFFIX,movie-pilot.org
-#plex
+# plex
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN,metadata.provider.plex.tv
   - DOMAIN,app.plex.tv
   - DOMAIN,v4.plex.tv
-#强国
+# 强国
   - DOMAIN-SUFFIX,v2raya.org
  # - DOMAIN-KEYWORD,onesy
   - DOMAIN-SUFFIX,wly312.buzz
@@ -34,7 +34,7 @@ payload:
   - DOMAIN-SUFFIX,nanoport.xyz
   - DOMAIN-SUFFIX,一元机场.com
   - DOMAIN-SUFFIX,bigme.pro
-#工具
+# 工具
 #  - DOMAIN-KEYWORD,bing
 #  - DOMAIN-KEYWORD,docker
 #  - DOMAIN-SUFFIX,docker.io
@@ -47,7 +47,7 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,4550.fun
   - DOMAIN,v2rayse.com
-#其他
+# 其他
   - DOMAIN-KEYWORD,notion
   - DOMAIN-SUFFIX,qichiyu.com
   - DOMAIN-SUFFIX,producthunt.com
@@ -62,7 +62,15 @@ payload:
   - DOMAIN,apple-relay.apple.com
   - DOMAIN-SUFFIX,hdhive.com
   - DOMAIN-SUFFIX,hdhive.online
-  #搜索引擎
+  # 字幕
+  - DOMAIN-SUFFIX,sandai.net
+  - DOMAIN-SUFFIX,shooter.cn
+  - DOMAIN-SUFFIX,assrt.net
+  - DOMAIN-SUFFIX,a4k.net
+  - DOMAIN-SUFFIX,subhd.tv
+  - DOMAIN-SUFFIX,zimuku.org
+  - DOMAIN-SUFFIX,subtitle.best
+  # 搜索引擎
 #  - DOMAIN-KEYWORD,wikidata
  # - DOMAIN-KEYWORD,wikipedia
   #谷歌
@@ -70,3 +78,4 @@ payload:
  # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
  # - DOMAIN-SUFFIX,googleapis.cn
  # - DOMAIN-SUFFIX,gstatic.com
+
