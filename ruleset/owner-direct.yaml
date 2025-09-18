@@ -36,6 +36,7 @@ payload:
   - DOMAIN-KEYWORD,m3u
   - DOMAIN-SUFFIX,fanmingming.com
 #其他
+  - DOMAIN-SUFFIX,fnnas.com
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,tailscale.io
   - DOMAIN-SUFFIX,tailscale.com
@@ -44,3 +45,4 @@ payload:
   - DOMAIN,clash.razord.top
   - DOMAIN,yacd.haishan.me
   - DOMAIN-SUFFIX,hlcgw.com
+
