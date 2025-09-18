@@ -1,9 +1,9 @@
 payload:
  # Apple LBS
-# - DOMAIN-SUFFIX,iphone-ld.apple.com
- # - DOMAIN-SUFFIX,lcdn-locator.apple.com
-  # - DOMAIN-SUFFIX,lcdn-registration.apple.com
-  # - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-SUFFIX,iphone-ld.apple.com
+  - DOMAIN-SUFFIX,lcdn-locator.apple.com
+  - DOMAIN-SUFFIX,lcdn-registration.apple.com
+  - DOMAIN-SUFFIX,push.apple.com
 #下载
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,xunlei
@@ -45,4 +45,5 @@ payload:
   - DOMAIN,clash.razord.top
   - DOMAIN,yacd.haishan.me
   - DOMAIN-SUFFIX,hlcgw.com
+
 
