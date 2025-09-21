@@ -72,6 +72,8 @@ payload:
   - DOMAIN-SUFFIX,subhd.tv
   - DOMAIN-SUFFIX,zimuku.org
   - DOMAIN-SUFFIX,subtitle.best
+  - DOMAIN-KEYWORD,unraid
+  - DOMAIN-SUFFIX,unraid.net
   # 搜索引擎
 #  - DOMAIN-KEYWORD,wikidata
  # - DOMAIN-KEYWORD,wikipedia
@@ -80,5 +82,6 @@ payload:
  # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
  # - DOMAIN-SUFFIX,googleapis.cn
  # - DOMAIN-SUFFIX,gstatic.com
+
 
 
