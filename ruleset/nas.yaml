@@ -26,6 +26,8 @@ payload:
 # 强国
   - DOMAIN-SUFFIX,v2raya.org
  # - DOMAIN-KEYWORD,onesy
+  - DOMAIN-SUFFIX,pilor.net
+  - DOMAIN-SUFFIX,pailehub.com
   - DOMAIN-SUFFIX,wly312.buzz
   - DOMAIN-SUFFIX,wly311.buzz
   - DOMAIN-SUFFIX,ip.sb
@@ -82,6 +84,7 @@ payload:
  # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
  # - DOMAIN-SUFFIX,googleapis.cn
  # - DOMAIN-SUFFIX,gstatic.com
+
 
 
 
