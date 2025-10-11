@@ -58,9 +58,9 @@ payload:
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-KEYWORD,wiki
   - DOMAIN-SUFFIX,v2ex.com
-  # 依赖
+  # mp依赖
   - DOMAIN-SUFFIX,pypi.org    
-  #apple 
+  # apple 
   - DOMAIN-SUFFIX,apple-relay.cloudflare.com
   - DOMAIN-KEYWORD,apple-relay
   - DOMAIN,apple-relay.apple.com
@@ -77,14 +77,19 @@ payload:
   - DOMAIN-KEYWORD,unraid
   - DOMAIN-SUFFIX,unraid.net
   # 搜索引擎
-#  - DOMAIN-KEYWORD,wikidata
- # - DOMAIN-KEYWORD,wikipedia
+  - DOMAIN-KEYWORD,wikidata
+  - DOMAIN-KEYWORD,wikipedia
   #谷歌
-  # - DOMAIN-SUFFIX,googleapis.com
- # - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
- # - DOMAIN-SUFFIX,googleapis.cn
- # - DOMAIN-SUFFIX,gstatic.com
-
-
-
-
+   - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,gstatic.com
+# iOS26.1 beta2 适用的Apple Intelligence规则（再次精简）
+  - DOMAIN-SUFFIX,apple-relay.apple.com
+  - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
+  - DOMAIN-SUFFIX,gateway.icloud.com
+  - DOMAIN-SUFFIX,guzzoni.apple.com
+  - DOMAIN-SUFFIX,cp4.cloudflare.com
+  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+  - DOMAIN-SUFFIX,apps.mzstatic.com
