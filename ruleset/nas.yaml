@@ -18,7 +18,8 @@ payload:
   - DOMAIN-SUFFIX,sandai.net
   - DOMAIN-SUFFIX,opensubtitles.org
   - DOMAIN-SUFFIX,movie-pilot.org
-  - DOMAIN-SUFFIX,private.omdbapi.com
+  - DOMAIN-SUFFIX,omdbapi.com
+  - DOMAIN-SUFFIX,omdb.com
 # plex
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN,metadata.provider.plex.tv
@@ -95,5 +96,6 @@ payload:
   - DOMAIN-SUFFIX,cp4.cloudflare.com
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
   - DOMAIN-SUFFIX,apps.mzstatic.com
+
 
 
