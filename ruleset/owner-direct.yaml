@@ -43,6 +43,7 @@ payload:
   - DOMAIN,clash.razord.top
   - DOMAIN,yacd.haishan.me
   - DOMAIN-SUFFIX,hlcgw.com
+  - DOMAIN-KEYWORD,gh-proxy
 
 
 
