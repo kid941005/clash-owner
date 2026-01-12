@@ -43,5 +43,6 @@ payload:
   - DOMAIN-SUFFIX,tjupt.org # TJUPT（天津大学PT）
   - DOMAIN-SUFFIX,ubits.club # UBits
   - DOMAIN-SUFFIX,xingtan.one # 杏坛
+  - DOMAIN-SUFFIX,pthub.cc # pt导航站
   - DOMAIN-SUFFIX,zhuque.in # 朱雀PT
 # 已死
