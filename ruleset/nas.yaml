@@ -96,6 +96,8 @@ payload:
   - DOMAIN-SUFFIX,cp4.cloudflare.com
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
   - DOMAIN-SUFFIX,apps.mzstatic.com
+  # 蜂巢
+  - DOMAIN-SUFFIX,pting.club
 
 
 
