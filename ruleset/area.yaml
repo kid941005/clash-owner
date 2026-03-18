@@ -30,8 +30,8 @@ payload:
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-KEYWORD,colab
   - DOMAIN-KEYWORD,developerprofiles
-
   - DOMAIN-KEYWORD,generativelanguage
+  
   - DOMAIN,guzzoni.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN-SUFFIX,apple-relay.cloudflare.com
