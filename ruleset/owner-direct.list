@@ -43,5 +43,7 @@ DOMAIN-SUFFIX,tailscale.io
 DOMAIN-SUFFIX,tailscale.com
 DOMAIN,clash.razord.top
 DOMAIN,yacd.haishan.me
+DOMAIN,api.minimaxi.com
+DOMAIN-SUFFIX,minimaxi.com
 DOMAIN-SUFFIX,hlcgw.com
 DOMAIN-KEYWORD,gh-proxy
