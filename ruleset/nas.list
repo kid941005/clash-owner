@@ -27,7 +27,7 @@ DOMAIN,app.plex.tv
 DOMAIN,v4.plex.tv
 # 强国
 DOMAIN-SUFFIX,v2raya.org
- # - DOMAIN-KEYWORD,onesy
+ #  DOMAIN-KEYWORD,onesy
 DOMAIN-SUFFIX,pilor.net
 DOMAIN-SUFFIX,pailehub.com
 DOMAIN-SUFFIX,wly312.buzz
@@ -42,9 +42,9 @@ DOMAIN-SUFFIX,emovpn.top
 DOMAIN-SUFFIX,332532.xyz
 DOMAIN-SUFFIX,onesy1.cc
 # 工具
-#DOMAIN-KEYWORD,bing
-#DOMAIN-KEYWORD,docker
-#DOMAIN-SUFFIX,docker.io
+# DOMAIN-KEYWORD,bing
+# DOMAIN-KEYWORD,docker
+# DOMAIN-SUFFIX,docker.io
  # - DOMAIN-SUFFIX,docker.com
  # - DOMAIN,registry.hub.docker.com
  # - DOMAIN,hub.docker.com
@@ -64,9 +64,10 @@ DOMAIN-SUFFIX,v2ex.com
   # mp依赖
 DOMAIN-SUFFIX,pypi.org    
   # apple 
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-KEYWORD,apple-relay
-DOMAIN,apple-relay.apple.com
+# DOMAIN-SUFFIX,apple-relay.cloudflare.com
+# DOMAIN-KEYWORD,apple-relay
+# DOMAIN,apple-relay.apple.com
+# 影巢
 DOMAIN-SUFFIX,hdhive.com
 DOMAIN-SUFFIX,hdhive.online
   # 字幕
@@ -83,18 +84,18 @@ DOMAIN-SUFFIX,unraid.net
 DOMAIN-KEYWORD,wikidata
 DOMAIN-KEYWORD,wikipedia
   #谷歌
- DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,gstatic.com
+# DOMAIN-SUFFIX,googleapis.com
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# DOMAIN-SUFFIX,googleapis.cn
+# DOMAIN-SUFFIX,gstatic.com
 # iOS26.1 beta2 适用的Apple Intelligence规则（再次精简）
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,apps.mzstatic.com
+# DOMAIN-SUFFIX,apple-relay.apple.com
+# DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+# DOMAIN-SUFFIX,apple-relay.cloudflare.com
+# DOMAIN-SUFFIX,gateway.icloud.com
+# DOMAIN-SUFFIX,guzzoni.apple.com
+# DOMAIN-SUFFIX,cp4.cloudflare.com
+# DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+# DOMAIN-SUFFIX,apps.mzstatic.com
   # 蜂巢
 DOMAIN-SUFFIX,pting.club
