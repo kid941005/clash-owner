@@ -99,3 +99,5 @@ DOMAIN-KEYWORD,wikipedia
 # DOMAIN-SUFFIX,apps.mzstatic.com
   # 蜂巢
 DOMAIN-SUFFIX,pting.club
+DOMAIN-KEYWORD,nodesource
+DOMAIN-KEYWORD,playwright
