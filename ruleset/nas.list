@@ -99,6 +99,7 @@ DOMAIN-KEYWORD,wikipedia
 # DOMAIN-SUFFIX,apps.mzstatic.com
   # 蜂巢
 DOMAIN-SUFFIX,tinyhumans.ai
+DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,pting.club
 DOMAIN-KEYWORD,nodesource
 DOMAIN-KEYWORD,playwright
