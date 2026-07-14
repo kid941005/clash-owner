@@ -20,6 +20,10 @@ DOMAIN-SUFFIX,opensubtitles.org
 DOMAIN-SUFFIX,movie-pilot.org
 DOMAIN-SUFFIX,omdbapi.com
 DOMAIN-SUFFIX,omdb.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,media-imdb.com
+DOMAIN-SUFFIX,imdbapi.dev
+DOMAIN-SUFFIX,imdb.com
 # plex
 DOMAIN-SUFFIX,plex.tv
 DOMAIN,metadata.provider.plex.tv
