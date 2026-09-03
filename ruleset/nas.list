@@ -116,5 +116,6 @@ DOMAIN-SUFFIX,factory.pub
 DOMAIN-SUFFIX,aicorehub.cloud
 DOMAIN-SUFFIX,wetransfer.com
 DOMAIN-KEYWORD,jsysubtoken
-DOMAIN-KEYWORD,oness.xyz
-DOMAIN-KEYWORD,mypikpak.com
+DOMAIN-SUFFIX,oness.xyz
+DOMAIN-KEYWORD,mypikpak
+DOMAIN-KEYWORD,pikpak
