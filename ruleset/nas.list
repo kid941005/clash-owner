@@ -7,6 +7,10 @@ DOMAIN-KEYWORD,thetvdb
 DOMAIN,api.themoviedb.org
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
+DOMAIN,graphql.anilist.co
+DOMAIN-SUFFIX,musicbrainz.org
+DOMAIN,api.listenbrainz.org
+DOMAIN-SUFFIX,coverartarchive.org
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,fanart.tv
 DOMAIN-SUFFIX,subtitle.best
