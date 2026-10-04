@@ -45,5 +45,15 @@ DOMAIN,clash.razord.top
 DOMAIN,yacd.haishan.me
 DOMAIN,api.minimaxi.com
 DOMAIN-SUFFIX,minimaxi.com
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,auth.meta.com
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,metaaivm.com
+  # MuseScore 相关
+DOMAIN-SUFFIX,musescore.org
+DOMAIN-SUFFIX,musescore.com
 DOMAIN-SUFFIX,hlcgw.com
 DOMAIN-KEYWORD,gh-proxy
