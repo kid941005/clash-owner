@@ -4,29 +4,42 @@ DOMAIN-SUFFIX,iphone-ld.apple.com
 DOMAIN-SUFFIX,lcdn-locator.apple.com
 DOMAIN-SUFFIX,lcdn-registration.apple.com
 DOMAIN-SUFFIX,push.apple.com
-#下载
-DOMAIN-KEYWORD,aria2
-DOMAIN-KEYWORD,xunlei
-DOMAIN-KEYWORD,yunpan
-DOMAIN-KEYWORD,Thunder
-DOMAIN-KEYWORD,XLLiveUD
+#下载（改为进程规则，依据实测：DOMAIN-KEYWORD 匹配 host，软件名永不命中）
+# 前提：mihomo 的 find-process-mode 非 off（默认 strict），TUN 模式最可靠
+PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,aria2c.exe
+PROCESS-NAME,transmission-daemon
+PROCESS-NAME,transmission-qt.exe
+PROCESS-NAME,Thunder.exe
+PROCESS-NAME,ThunderPlatform.exe
+# 原 yunpan 关键字对应百度网盘
+PROCESS-NAME,BaiduNetdisk.exe
+# 原 XLLiveUD 为迅雷直播，进程名待确认，暂不启用
+# BT / PT tracker（关键字匹配 host，有效）
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
 DOMAIN-KEYWORD,tracker
-DOMAIN-KEYWORD,smtp
-DOMAIN-KEYWORD,qbittorrent
-DOMAIN-KEYWORD,transmission
+# 邮件：原 DOMAIN-KEYWORD,smtp 过宽（会吞掉 smtp.gmail.com 等境外主机），收窄为国内常用 SMTP
+DOMAIN-SUFFIX,smtp.qq.com
+DOMAIN-SUFFIX,smtp.exmail.qq.com
+DOMAIN-SUFFIX,smtp.163.com
+DOMAIN-SUFFIX,smtp.126.com
+DOMAIN-SUFFIX,smtp.aliyun.com
+DOMAIN-SUFFIX,smtp.189.cn
 DOMAIN,t.audiences.me
 DOMAIN,on.springsunday.net
-DOMAIN-KEYWORD,announce.php?passkey
+# announce.php?passkey 含 "?"，host 不含 query，永不命中，已删
 #群晖代理
 DOMAIN-SUFFIX,digitalocean.com
 DOMAIN,checkip.synology.com
 DOMAIN,checkipv6.synology.com
 DOMAIN,checkport.synology.com
 DOMAIN-KEYWORD,synology
+# QuickConnect 走 *.quickconnect.to，不含 synology 关键字，需单列
+DOMAIN-SUFFIX,quickconnect.to
 DOMAIN-KEYWORD,kid1412
-DOMAIN-SUFFIX,kid1412.top
+# kid1412.top 已 NXDOMAIN（主域/www/nas 三处实测），留档待确认新域
+# DOMAIN-SUFFIX,kid1412.top
 DOMAIN-SUFFIX,slack.com
 DOMAIN,qyapi.weixin.qq.com
 DOMAIN-SUFFIX,smzdm.com
@@ -36,7 +49,8 @@ DOMAIN-SUFFIX,ipw.cn
 DOMAIN-KEYWORD,m3u
 DOMAIN-SUFFIX,fanmingming.com
 #其他
-DOMAIN-SUFFIX,55565576.xyz  #认证
+#认证
+DOMAIN-SUFFIX,55565576.xyz
 DOMAIN-SUFFIX,fnnas.com
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,tailscale.io
