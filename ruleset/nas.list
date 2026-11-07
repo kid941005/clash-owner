@@ -38,16 +38,14 @@ DOMAIN-SUFFIX,v2raya.org
  #  DOMAIN-KEYWORD,onesy
 DOMAIN-SUFFIX,pilor.net
 DOMAIN-SUFFIX,pailehub.com
-DOMAIN-SUFFIX,wly312.buzz
-DOMAIN-SUFFIX,wly311.buzz
 DOMAIN-SUFFIX,ip.sb
 #DOMAIN-SUFFIX,onesy.top
 DOMAIN-SUFFIX,gw-yundong.cc
 DOMAIN-SUFFIX,nanoport.xyz
-DOMAIN-SUFFIX,一元机场.com
+# 一元机场（原写中文，Clash 匹配 punycode，中文写法永不命中）
+DOMAIN-SUFFIX,xn--4gq62f52gdss.com
 DOMAIN-SUFFIX,bigme.pro
 DOMAIN-SUFFIX,emovpn.top
-DOMAIN-SUFFIX,332532.xyz
 DOMAIN-SUFFIX,onesy1.cc
 # 工具
 # DOMAIN-KEYWORD,bing
@@ -70,22 +68,14 @@ DOMAIN-SUFFIX,linux.do
 DOMAIN-KEYWORD,wiki
 DOMAIN-SUFFIX,v2ex.com
   # mp依赖
-DOMAIN-SUFFIX,pypi.org    
-  # apple 
+DOMAIN-SUFFIX,pypi.org
+  # apple
 # DOMAIN-SUFFIX,apple-relay.cloudflare.com
 # DOMAIN-KEYWORD,apple-relay
 # DOMAIN,apple-relay.apple.com
 # 影巢
 DOMAIN-SUFFIX,hdhive.com
 DOMAIN-SUFFIX,hdhive.online
-  # 字幕
-DOMAIN-SUFFIX,sandai.net
-DOMAIN-SUFFIX,shooter.cn
-DOMAIN-SUFFIX,assrt.net
-DOMAIN-SUFFIX,a4k.net
-DOMAIN-SUFFIX,subhd.tv
-DOMAIN-SUFFIX,zimuku.org
-DOMAIN-SUFFIX,subtitle.best
 DOMAIN-KEYWORD,unraid
 DOMAIN-SUFFIX,unraid.net
   # 搜索引擎
@@ -112,7 +102,6 @@ DOMAIN-SUFFIX,pting.club
 DOMAIN-KEYWORD,nodesource
 DOMAIN-KEYWORD,playwright
 DOMAIN-SUFFIX,ubuntu.com
-DOMAIN-SUFFIX,unodesource.com
 DOMAIN-SUFFIX,yfamilys.com
 DOMAIN-SUFFIX,nousresearch.com
 DOMAIN-SUFFIX,huggingface.co
@@ -139,11 +128,19 @@ DOMAIN-SUFFIX,mojie.work
 DOMAIN-SUFFIX,66jc.top
 DOMAIN-SUFFIX,qoder.com
 DOMAIN-SUFFIX,qoder.sh
-DOMAIN-SUFFIX,qoder.sh
-DOMAIN-SUFFIX,opencode.ai 
+DOMAIN-SUFFIX,opencode.ai
 DOMAIN-SUFFIX,bestproxy.com
 DOMAIN-SUFFIX,proxylane.dev
 DOMAIN-SUFFIX,ksiwgreasi.com
-DOMAIN-SUFFIX,极速123.com
+# 极速123（原写中文，已转 punycode）
+DOMAIN-SUFFIX,xn--123-vd0gw60p.com
 DOMAIN-SUFFIX,trae.ai
 DOMAIN,appleid.apple.com
+
+# ============ 已失效，留档待确认 ============
+# wly312.buzz / wly311.buzz / 332532.xyz：NXDOMAIN（A+AAAA 双查，2026-11-07），机场疑似换域
+# unodesource.com：NXDOMAIN，且已被 DOMAIN-KEYWORD,nodesource 覆盖，无需单列
+# DOMAIN-SUFFIX,wly312.buzz
+# DOMAIN-SUFFIX,wly311.buzz
+# DOMAIN-SUFFIX,332532.xyz
+# DOMAIN-SUFFIX,unodesource.com
