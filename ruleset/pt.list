@@ -1,49 +1,139 @@
-# payload:
+# NAME: pt
+# DESC: PT 站点直连规则集（rule-provider 需 behavior: classical + format: text）
+# 注意：Clash / mihomo 的 rule-provider 只跳过「行首」注释，不解析行内注释。
+#       `DOMAIN-SUFFIX,xxx # 备注` 会被解析成域名 "xxx # 备注"，永远不会命中。
+#       因此本文件所有注释均独占一行。
+# 修订：2026-11-07 行内注释外移、域名统一小写、修正 hdfun.me、保留 hdwing.org（已复核可访问）
+
+# --- A ---
 DOMAIN-SUFFIX,0ff.cc
 DOMAIN-SUFFIX,1ptba.com
 DOMAIN-SUFFIX,52pt.site
-DOMAIN-SUFFIX,agsvpt.com # 末日
-DOMAIN-SUFFIX,audiences.me # 观众
+# 末日
+DOMAIN-SUFFIX,agsvpt.com
+# 观众
+DOMAIN-SUFFIX,audiences.me
+
+# --- B ---
 DOMAIN-SUFFIX,btschool.club
-DOMAIN-SUFFIX,crabpt.vip # 蟹黄堡
-DOMAIN-SUFFIX,dajiao.cyou # 打胶
-DOMAIN-SUFFIX,haidan.video # 海胆PT
+
+# --- C ---
+# 蟹黄堡
+DOMAIN-SUFFIX,crabpt.vip
+
+# --- D ---
+# 打胶
+DOMAIN-SUFFIX,dajiao.cyou
+
+# --- H ---
+# 海胆PT
+DOMAIN-SUFFIX,haidan.video
 DOMAIN-SUFFIX,hdatmos.club
-DOMAIN-SUFFIX,hdfans.org # 红豆饭
-DOMAIN-SUFFIX,Dhdfun.me # HDFun
-DOMAIN-SUFFIX,hdbits.org # HDBits
-DOMAIN-SUFFIX,hdhome.org # 家园
-DOMAIN-SUFFIX,hdkyl.in # 麒麟PT
-DOMAIN-SUFFIX,hddolby.com # 杜比
-DOMAIN-SUFFIX,hdsky.me # 天空
+# HDBits
+DOMAIN-SUFFIX,hdbits.org
+# 杜比
+DOMAIN-SUFFIX,hddolby.com
+# 红豆饭
+DOMAIN-SUFFIX,hdfans.org
+# HDFun
+DOMAIN-SUFFIX,hdfun.me
+# 家园
+DOMAIN-SUFFIX,hdhome.org
+# 麒麟PT
+DOMAIN-SUFFIX,hdkyl.in
+# 天空
+DOMAIN-SUFFIX,hdsky.me
 DOMAIN-SUFFIX,hdtime.org
-DOMAIN-SUFFIX,hhan.club # 憨憨PT
-DOMAIN-SUFFIX,hhanclub.top # 憨憨PT
-DOMAIN-SUFFIX,icetorrent.org # 冰淇淋
-DOMAIN-SUFFIX,icc2022.com
-DOMAIN-SUFFIX,keepfrds.com # 月月
-DOMAIN-SUFFIX,m-team.cc # M-Team馒头
-DOMAIN-SUFFIX,mikanani.me # Mikanani
-DOMAIN-SUFFIX,nicept.net # 老师
-DOMAIN-SUFFIX,open.cd # 皇后
-DOMAIN-SUFFIX,okpt.net # okpt
-DOMAIN-SUFFIX,ourbits.club # 我堡
-DOMAIN-SUFFIX,ourhelp.club # OurHelp
-DOMAIN-SUFFIX,pandapt.net # 熊猫
-DOMAIN-SUFFIX,ptchina.org #铂金学院
-DOMAIN-SUFFIX,ptchdbits.co # PTCHDBits
-DOMAIN-SUFFIX,pterclub.com # PTerClub 猫站
-DOMAIN-SUFFIX,pttime.org # PTTime 
-DOMAIN-SUFFIX,sharkpt.net # 鲨鱼
-DOMAIN-SUFFIX,soulvoice.club # 聆音
-DOMAIN-SUFFIX,skyeysnow.com
-DOMAIN-SUFFIX,springsunday.net # 春天
-DOMAIN-SUFFIX,torrentleech.org # TorrentLeech
-DOMAIN-SUFFIX,totheglory.im # ToTheGlory 套套哥
-DOMAIN-SUFFIX,tjupt.org # TJUPT（天津大学PT）
-DOMAIN-SUFFIX,ubits.club # UBits
-DOMAIN-SUFFIX,xingtan.one # 杏坛
-DOMAIN-SUFFIX,pthub.cc # pt导航站
-DOMAIN-SUFFIX,zhuque.in # 朱雀PT
-# 已死
+# 葡萄
 DOMAIN-SUFFIX,hdwing.org
+# 憨憨PT
+DOMAIN-SUFFIX,hhan.club
+# 憨憨PT（新域）
+DOMAIN-SUFFIX,hhanclub.top
+
+# --- I ---
+# 冰淇淋
+DOMAIN-SUFFIX,icetorrent.org
+DOMAIN-SUFFIX,icc2022.com
+
+# --- K ---
+# 月月
+DOMAIN-SUFFIX,keepfrds.com
+
+# --- M ---
+# M-Team 馒头
+DOMAIN-SUFFIX,m-team.cc
+# Mikanani
+DOMAIN-SUFFIX,mikanani.me
+
+# --- N ---
+# 老师
+DOMAIN-SUFFIX,nicept.net
+
+# --- O ---
+# okpt
+DOMAIN-SUFFIX,okpt.net
+# 皇后
+DOMAIN-SUFFIX,open.cd
+# 我堡
+DOMAIN-SUFFIX,ourbits.club
+# OurHelp
+DOMAIN-SUFFIX,ourhelp.club
+
+# --- P ---
+# 熊猫
+DOMAIN-SUFFIX,pandapt.net
+# PTCHDBits
+DOMAIN-SUFFIX,ptchdbits.co
+# 铂金学院
+DOMAIN-SUFFIX,ptchina.org
+# PTerClub 猫站
+DOMAIN-SUFFIX,pterclub.com
+# pt 导航站
+DOMAIN-SUFFIX,pthub.cc
+# PTTime
+DOMAIN-SUFFIX,pttime.org
+
+# --- S ---
+# 鲨鱼
+DOMAIN-SUFFIX,sharkpt.net
+DOMAIN-SUFFIX,skyeysnow.com
+# 聆音
+DOMAIN-SUFFIX,soulvoice.club
+# 春天
+DOMAIN-SUFFIX,springsunday.net
+
+# --- T ---
+# TJUPT（天津大学PT）
+DOMAIN-SUFFIX,tjupt.org
+# TorrentLeech
+DOMAIN-SUFFIX,torrentleech.org
+# ToTheGlory 套套哥
+DOMAIN-SUFFIX,totheglory.im
+
+# --- U ---
+# UBits
+DOMAIN-SUFFIX,ubits.club
+
+# --- X ---
+# 杏坛
+DOMAIN-SUFFIX,xingtan.one
+
+# --- Z ---
+# 朱雀PT
+DOMAIN-SUFFIX,zhuque.in
+
+# ============ 可选补充（DNS 均可解析，站点归属请自行核对后再启用）============
+# DOMAIN-SUFFIX,hdchina.org      # 瓷器
+# DOMAIN-SUFFIX,hdcity.city      # 城市
+# DOMAIN-SUFFIX,lemonhd.org      # 柠檬
+# DOMAIN-SUFFIX,hdarea.co        # 面积
+# DOMAIN-SUFFIX,pthome.net       # 铂金家
+# DOMAIN-SUFFIX,ptsbao.club      # 烧包
+# DOMAIN-SUFFIX,npupt.com        # NPUPT
+# DOMAIN-SUFFIX,dmhy.org         # 动漫花园
+# DOMAIN-SUFFIX,u2.dmhy.org      # U2 分享园
+# DOMAIN-SUFFIX,nyaa.si          # Nyaa
+# DOMAIN-SUFFIX,acg.rip          # ACG.RIP
+# DOMAIN-SUFFIX,bangumi.moe      # 萌番组
+# DOMAIN-SUFFIX,mikanime.tv      # Mikan 备用域
